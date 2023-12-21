@@ -40,7 +40,7 @@ public class CarRepository : ICarRepository
         var parameters = new
         {
             modelo = car.Modelo,
-            fabrincante = car.Fabricante,
+            fabricante = car.Fabricante,
             motor = car.Motor,
             cor = car.Cor
         };
